@@ -21,6 +21,7 @@ The micro-batch is defined to 1 second, time in which the user only can make one
 ##Redis:
 
 For the storage of the login counter Redis is the technology selected. I have chosen that technology for 3 different reasons:
+
 1. Provides high availability and scalability.
 2. It is an in-memory database providing a great performance in the request, something crucial in streaming environments.
 3. The key-value structure fits perfectly for storing and Id and his counter.
